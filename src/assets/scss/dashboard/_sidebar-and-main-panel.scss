@@ -187,9 +187,6 @@
     display: block;
     top: 0;
     left: 0;
-    background-image: url('../../img/sidebar-1.jpg');
-    background-size: cover;
-    background-position: center center;
     &:after {
       position: absolute;
       z-index: 3;
@@ -197,8 +194,7 @@
       height: 100%;
       content: "";
       display: block;
-      background: $brand-background;
-      opacity: .93;
+      opacity: 1;
     }
   }
   .logo {
@@ -367,7 +363,6 @@
   height: 100%;
   @include transition (0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1));
   .main-content {
-    padding: 15px;
     content: "";
     width: 100%;
     height: 100%;
