@@ -55,7 +55,7 @@ export class ConfigService {
       centralSystemServer.host = this.window.location.hostname;
     }
     if (!centralSystemServer.port) {
-      centralSystemServer.port = Utils.convertToInteger(this.window.location.port);
+      //centralSystemServer.port = Utils.convertToInteger(this.window.location.port);
     }
     return centralSystemServer ;
   }
