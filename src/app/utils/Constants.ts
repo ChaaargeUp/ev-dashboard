@@ -16,13 +16,16 @@ export class Constants {
   /* Data Service */
   public static readonly DEFAULT_LIMIT = Constants.DEFAULT_PAGE_SIZE;
   public static readonly DEFAULT_SKIP = 0;
-  public static readonly FIRST_ITEM_PAGING = {limit: 1, skip: Constants.DEFAULT_SKIP};
-  public static readonly DEFAULT_PAGING = {limit: Constants.DEFAULT_LIMIT, skip: Constants.DEFAULT_SKIP};
-  public static readonly MAX_PAGING = {limit: Constants.MAX_PAGE_SIZE, skip: Constants.DEFAULT_SKIP};
+  public static readonly FIRST_ITEM_PAGING = { limit: 1, skip: Constants.DEFAULT_SKIP };
+  public static readonly DEFAULT_PAGING = { limit: Constants.DEFAULT_LIMIT, skip: Constants.DEFAULT_SKIP };
+  public static readonly MAX_PAGING = { limit: Constants.MAX_PAGE_SIZE, skip: Constants.DEFAULT_SKIP };
 
   public static readonly USER_NO_PICTURE = 'assets/img/theme/no-photo.png';
   public static readonly NO_IMAGE = 'assets/img/theme/no-image.png';
-  public static readonly MASTER_TENANT_LOGO = '/assets/img/logo-low.png';
+  public static readonly MASTER_TENANT_LOGO = '/assets/img/logo-wide.png';
+  public static readonly LOGIN_ILLUSTRATION = '/assets/img/login.svg';
+  public static readonly REGISTER_ILLUSTRATION = '/assets/img/sign_up.svg';
+  public static readonly RESET_PASSWORD_ILLUSTRATION = '/assets/img/forgot_password.svg';
 
   /* RegEx validation rule */
   public static readonly REGEX_VALIDATION_LATITUDE = /^-?([1-8]?[1-9]|[1-9]0)\.{0,1}[0-9]*$/;

@@ -1,7 +1,7 @@
 {
   "name": "ev-dashboard",
   "description": "Dashboard for monitoring the EV Charging Infrastructure",
-  "homepage": "https://github.com/sap-labs-france/ev-dashboard",
+  "homepage": "https://github.com/ChaaargeUp/ev-dashboard",
   "version": "2.7.5",
   "engines": {
     "node": "^16.15.x",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sap-labs-france/ev-dashboard.git"
+    "url": "https://github.com/ChaaargeUp/ev-dashboard.git"
   },
-  "author": "ChaaargeUp Platform <open-e-mobility@sap.com>",
+  "author": "ChaaargeUp Platform",
   "license": "Apache-2.0",
   "licenses": [
     {

@@ -3,7 +3,7 @@
       "apps":[],
       "details":[
          {
-            "appID":"SG7N28T3A2.com.e-Mobility",
+            "appID":"SG7N28T3A2.com.ChaaaargeUp-Platform",
             "paths":["/auth/verify-email/*", "/auth/define-password/*"],
             "components":[
                {

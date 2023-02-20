@@ -1592,9 +1592,9 @@
       "update_success": "Le impostazioni OCPI sono state aggiornate correttamente",
       "update_error": "Si è verificato un errore durante l'aggiornamento delle impostazioni OCPI",
       "description": [
-        "E-Mobility fornisce un servizio certificato per la connessione ad una Piattaforma E-Roaming esterna.",
+        "ChaaaargeUp Platform fornisce un servizio certificato per la connessione ad una Piattaforma E-Roaming esterna.",
         "Questa funzionalità espone in tempo reale l'infrastruttura e la disponibilità della stazione di ricarica tramite il protocollo standard OCPI (Open Charge Point Interface).",
-        "E-Mobility sta attualmente utilizzando la Gireve Inter-Operability Platform (IOP)."
+        "ChaaaargeUp Platform sta attualmente utilizzando la Gireve Inter-Operability Platform (IOP)."
       ]
     },
     "oicp": {
@@ -1608,16 +1608,16 @@
       "update_success": "Le impostazioni OCPI sono state aggiornate correttamente",
       "update_error": "Si é verificato un errore durante l'aggiornamento delle impostazioni OICP, si prega di controllare i logs",
       "description": [
-        "E-Mobility fornisce un servizio certificato per la connessione ad una Piattaforma E-Roaming esterna.",
+        "ChaaaargeUp Platform fornisce un servizio certificato per la connessione ad una Piattaforma E-Roaming esterna.",
         "Questa funzionalità espone in tempo reale l'infrastruttura e la disponibilità della stazione di ricarica tramite il protocollo standard OICP  (Open InterCharge Protocol).",
-        "E-Mobility sta attualmente utilizzando l'Hubject B2B Service Platform (HBS)."
+        "ChaaaargeUp Platform sta attualmente utilizzando l'Hubject B2B Service Platform (HBS)."
       ]
     },
     "refund": {
       "description": [
-        "E-Mobility fornisce un servizio di rimborso per un sistema di gestione spese esterno.",
+        "ChaaaargeUp Platform fornisce un servizio di rimborso per un sistema di gestione spese esterno.",
         "Questa funzionalità consente all'utente di inoltrare le sue sessioni ad un sistema di gestione spese esterno ed ottenere il rimborso per l'elettricità consumata.",
-        "E-Mobility sta usando attualmente SAP Concur. Ulteriori informazioni tecniche disponibili all'indirizzo"
+        "ChaaaargeUp Platform sta usando attualmente SAP Concur. Ulteriori informazioni tecniche disponibili all'indirizzo"
       ],
       "not_found": "Impostazioni di rimborso non trovate",
       "create_success": "Le impostazioni di rimborso sono state create con successo",
@@ -1786,7 +1786,7 @@
         "force_synchronize_user_failure": "Sincronizzazione utente fallita, controlla i log"
       },
       "stripe": {
-        "description": "E-Mobility consente l'invio di fatture agli utenti delle stazioni di ricarica con Stripe...",
+        "description": "ChaaaargeUp Platform consente l'invio di fatture agli utenti delle stazioni di ricarica con Stripe...",
         "title": "Stripe",
         "url": "URL della Dashboard Stripe",
         "public_key": "Chiave API Pubblicabile",
@@ -1807,9 +1807,9 @@
         "settings": "Impostazioni"
       },
       "description": [
-        "E-Mobility espone i suoi dati ad uno strumento di analisi dati esterno.",
+        "ChaaaargeUp Platform espone i suoi dati ad uno strumento di analisi dati esterno.",
         "Questa funzione espone in tempo reale tutti i dati della sessione attraverso un connettore a strumenti esterni di analisi dei dati.",
-        "E-Mobility sta attualmente usando SAP Analytics Cloud per mezzo di un connettore OData.",
+        "ChaaaargeUp Platform sta attualmente usando SAP Analytics Cloud per mezzo di un connettore OData.",
         "SAP Analytics Cloud supporta l'uso intelligente dei dati di ricarica per semplificare il processo decisionale operativo.",
         "Ulteriori informazioni tecniche disponibili all'indirizzo"
       ],
@@ -1831,7 +1831,7 @@
     "limit_buffer_dc": "Buffer per limite DC (%)",
     "limit_buffer_ac": "Buffer per limite AC (%)"
       },
-      "description": "E-Mobility può utilizzare l'algoritmo di ricarica intelligente per ottimizzare la distribuzione dell'energia e i programmi di ricarica sulla base di vincoli complessi",
+      "description": "ChaaaargeUp Platform può utilizzare l'algoritmo di ricarica intelligente per ottimizzare la distribuzione dell'energia e i programmi di ricarica sulla base di vincoli complessi",
       "setting_do_not_exist": "La configurazione non è stata trovata",
       "setting_not_found": "Le impostazioni della ricarica smart SAP non sono state trovate",
       "create_success": "Le impostazioni di Ricarica Smart SAP sono state create con successo",
@@ -1869,7 +1869,7 @@
       "unknown_connection_error": "Errore di connessione sconosciuto",
       "invalid_grant": "Utente o Password errati",
       "connection_failed": "Connessione fallita",
-      "description": "E-Mobility può gestire il consumo di risorse e utilizzare queste informazioni con l'algoritmo di ricarica intelligente per bilanciare i consumi della stazione di ricarica per una determinata area del sito.",
+      "description": "ChaaaargeUp Platform può gestire il consumo di risorse e utilizzare queste informazioni con l'algoritmo di ricarica intelligente per bilanciare i consumi della stazione di ricarica per una determinata area del sito.",
       "setting_do_not_exist": "La configurazione non è stata trovata",
       "setting_not_found": "Le impostazioni della risorsa non sono state trovate",
       "create_success": "Le impostazioni della risorsa sono state create con successo",
@@ -1901,7 +1901,7 @@
         "revoke_success": "La tua connessione con Mercedes è stata revocata con successo",
         "revoke_error": "Si é verificato un errore durante la revoca della tua connessione con Mercedes, si prega di controllare i logs"
       },
-      "description": "E-Mobility può utilizzare i dati real time del tuo veicolo come, ad esempio, lo stato della ricarica e utilizzare le informazioni con l'algoritmo di ricarica smart per ottimizzare le sessioni di ricarica",
+      "description": "ChaaaargeUp Platform può utilizzare i dati real time del tuo veicolo come, ad esempio, lo stato della ricarica e utilizzare le informazioni con l'algoritmo di ricarica smart per ottimizzare le sessioni di ricarica",
       "setting_do_not_exist": "La configurazione non é stata trovata",
       "setting_not_found": "Le impostazioni della presa del veicolo non sono state trovate",
       "create_success": "Le impostazioni della presa del veicolo sono state create con successo",
@@ -1910,7 +1910,7 @@
       "update_error": "Si é verificato un errore durante l'aggiornalento della impostazioni della presa del veicolo, si prega di controllare i logs"
     },
     "information": "Informazioni",
-    "activation_contact_msg": "Per abilitare questa funzione, si prega di contattare il tuo rappresentante E-Mobility.",
+    "activation_contact_msg": "Per abilitare questa funzione, si prega di contattare il tuo rappresentante ChaaaargeUp Platform.",
     "car": {
       "synchronize_car_catalogs": "Sincronizza Vetture",
       "synchronize_car_catalogs_dialog_title": "Sincronizza Vetture",
@@ -2060,8 +2060,8 @@
     "roaming_platforms": "Piattaforma Interoperabilità",
     "cpo": "Operatore dei punti di ricarica",
     "enable_cpo": "Abilita operatore dei punti di ricarica",
-    "emsp": "Fornitore del servizio E-Mobility",
-    "enable_emsp": "Abilita fornitore del servizio E-Mobility",
+    "emsp": "Fornitore del servizio ChaaaargeUp Platform",
+    "enable_emsp": "Abilita fornitore del servizio ChaaaargeUp Platform",
     "tariff_id": "ID tariffa",
     "owner_name": "Nome del proprietario",
     "description": "Interfaccia OCP(open charge point)",
@@ -2165,7 +2165,7 @@
     "type_placeholder": "Tipo",
     "roaming_platforms": "Piattaforma Interoperabilità",
     "cpo": "Identificazione Operatore dei punti di ricarica",
-    "emsp": "Identificazione Fornitore del serviwio E-Mobility",
+    "emsp": "Identificazione Fornitore del serviwio ChaaaargeUp Platform",
     "description": "Protocollo Open InterCharge",
     "details": "Identificazione",
     "country_code": "Codice Paese",
@@ -2612,7 +2612,7 @@
         "partial": "{{inSuccess}} sessioni sono state trasferite con successo e {{inError}} sessioni hanno riscontrato un errore",
         "forbidden_refund_another_user": "Non puoi trasferire la sessione di un altro utente",
         "not_authorized": "Non sei autorizzato ad eseguire questa richiesta",
-        "error": "L'applicazione E-Mobility non è riuscita a connettersi al sistema di rimborso. Contatta un Amministratore.",
+        "error": "L'applicazione ChaaaargeUp Platform non è riuscita a connettersi al sistema di rimborso. Contatta un Amministratore.",
         "concur_connection_invalid": "La connessione al tuo sistema di rimborso non è configurata correttamente. Contatta un Amministratore.",
         "tenant_concur_connection_invalid": "L'organizzazione nella configurazione del tuo sistema di rimborso non è completa. Contatta un Amministratore"
       }

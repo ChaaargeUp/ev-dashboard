@@ -16,13 +16,15 @@
   .logo-img {
     @extend .animation-transition-general;
     max-height: 50px;
-    margin: 8px;
+    width: 100%;
+    height: auto;
   }
   .small-logo-img {
     @extend .animation-transition-general;
     max-height: 25px;
     max-width: 50px;
-    margin: 8px;
+    width: 100%;
+    height: auto;
   }
   .caret {
     display: inline-block;
@@ -235,6 +237,7 @@
       font-weight: $font-weight-default;
       line-height: 25px;
       overflow: hidden;
+      padding: 8px;
     }
     .app-title {
       color: white;

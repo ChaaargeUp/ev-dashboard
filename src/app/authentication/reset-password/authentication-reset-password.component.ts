@@ -80,7 +80,7 @@ export class AuthenticationResetPasswordComponent implements OnInit, OnDestroy {
         }
       });
     } else {
-      this.tenantLogo = Constants.MASTER_TENANT_LOGO;
+      this.tenantLogo = Constants.RESET_PASSWORD_ILLUSTRATION;
     }
   }
 

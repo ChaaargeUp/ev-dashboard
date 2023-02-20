@@ -139,7 +139,7 @@ export class AuthenticationRegisterComponent implements OnInit, OnDestroy {
         }
       });
     } else {
-      this.tenantLogo = Constants.MASTER_TENANT_LOGO;
+      this.tenantLogo = Constants.REGISTER_ILLUSTRATION;
     }
   }
 

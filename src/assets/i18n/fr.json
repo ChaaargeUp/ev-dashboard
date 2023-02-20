@@ -1592,9 +1592,9 @@
       "update_success": "La configuration OCPI a été mis à jour avec succès",
       "update_error": "Une erreur est survenue lors de la mise à jour de la configuration OCPI, vérifiez les logs",
       "description": [
-        "E-Mobility fournit un service certifié permettant de se connecter à une plate-forme d'itinérance externe.",
+        "ChaaaargeUp Platform fournit un service certifié permettant de se connecter à une plate-forme d'itinérance externe.",
         "Cette fonctionnalité permet de visualiser en temps réel l’infrastructure et la disponibilité des bornes de recharge via le protocole standard OCPI (Open Charge Point Interface).",
-        "E-Mobility utilise actuellement la plate-forme d'interopérabilité Gireve (IOP)."
+        "ChaaaargeUp Platform utilise actuellement la plate-forme d'interopérabilité Gireve (IOP)."
       ]
     },
     "oicp": {
@@ -1608,16 +1608,16 @@
       "update_success": "La configuration OICP a été mis à jour avec succès",
       "update_error": "Une erreur est survenue lors de la mise à jour de la configuration OICP, vérifiez les logs",
       "description": [
-        "E-Mobility fournit un service certifié permettant de se connecter à une plate-forme d'itinérance externe.",
+        "ChaaaargeUp Platform fournit un service certifié permettant de se connecter à une plate-forme d'itinérance externe.",
         "Cette fonctionnalité permet de visualiser en temps réel l’infrastructure et la disponibilité des bornes de recharge via le protocole standard OICP (Open InterCharge Protocol).",
-        "E-Mobility utilise actuellement la plate-forme d'interopérabilité Hubject (IOP)."
+        "ChaaaargeUp Platform utilise actuellement la plate-forme d'interopérabilité Hubject (IOP)."
       ]
     },
     "refund": {
       "description": [
-        "E-Mobility fournit un service de remboursement pour des systèmes externes.",
+        "ChaaaargeUp Platform fournit un service de remboursement pour des systèmes externes.",
         "Cette fonctionnalité permet à l'utilisateur de se faire rembourser des dépenses d'électricité liées à ses sessions de recharge.",
-        "E-Mobility utilise actuellement SAP Concur. Plus d'informations techniques disponibles sur "
+        "ChaaaargeUp Platform utilise actuellement SAP Concur. Plus d'informations techniques disponibles sur "
       ],
       "not_found": "La configuration Remboursement n'est pas disponible",
       "create_success": "La configuration Remboursement a été créé avec succès",
@@ -1786,7 +1786,7 @@
         "force_synchronize_user_failure": "Echec de synchronisation de l'utilisateur, vérifiez les logs"
       },
       "stripe": {
-        "description": "E-Mobility permet d'envoyer des factures aux utilisateurs de bornes avec Stripe",
+        "description": "ChaaaargeUp Platform permet d'envoyer des factures aux utilisateurs de bornes avec Stripe",
         "title": "Stripe",
         "url": "URL de votre compte Stripe",
         "public_key": "Clé d'API publique",
@@ -1807,9 +1807,9 @@
         "settings": "Configuration"
       },
       "description": [
-        "E-Mobility expose ses données à des outils d'analyse externes.",
+        "ChaaaargeUp Platform expose ses données à des outils d'analyse externes.",
         "Cette fonctionnalité expose en temps réel toutes les données de session via un connecteur aux outils d'analyse de données externes.",
-        "E-Mobility utilise actuellement SAP Analytics Cloud au travers d'un connecteur OData.",
+        "ChaaaargeUp Platform utilise actuellement SAP Analytics Cloud au travers d'un connecteur OData.",
         "SAP Analytics Cloud utilise de façon intelligente les données de charge afin de simplifier la prise de décision opérationnelle.",
         "Plus d'informations techniques disponibles sur "
       ],
@@ -1831,7 +1831,7 @@
         "limit_buffer_dc": "Buffer for Limit DC (%)",
         "limit_buffer_ac": "Buffer for Limit AC (%)"
       },
-      "description": "E-Mobility peut utiliser un algorithme de charge intelligente pour optimiser la puissance distribuée aux bornes basé sur des contraintes complèxes",
+      "description": "ChaaaargeUp Platform peut utiliser un algorithme de charge intelligente pour optimiser la puissance distribuée aux bornes basé sur des contraintes complèxes",
       "setting_do_not_exist": "La configuration n'existe pas",
       "setting_not_found": "La configuration n'a pas été trouvée",
       "create_success": "La configuration de SAP Smart Charging a été créé avec succès",
@@ -1869,7 +1869,7 @@
       "unknown_connection_error": "Erreur de connexion inconnue",
       "invalid_grant": "Utilisateur ou mot de passe incorrect",
       "connection_failed": "Échec de la connexion",
-      "description": "E-Mobility peut gérer la consommation des ressources et utiliser l'algorithme de charge intelligente pour équilibrer la consommation des bornes sur une zone donnée.",
+      "description": "ChaaaargeUp Platform peut gérer la consommation des ressources et utiliser l'algorithme de charge intelligente pour équilibrer la consommation des bornes sur une zone donnée.",
       "setting_do_not_exist": "La configuration n'existe pas",
       "setting_not_found": "La configuration des ressources n'a pas été trouvée",
       "create_success": "La configuration des ressources a été créée avec succès",
@@ -1901,7 +1901,7 @@
         "revoke_success": "Your connection with Mercedes has been successfully revoked",
         "revoke_error": "Error occurred while revoking your connection with Mercedes, check the logs"
       },
-      "description": "E-Mobility peut récupérer en temps réel les données de votre véhicule comme le niveau de votre batterie et utiliser cette information avec la charge intelligente pour optimiser vos sessions de recharges.",
+      "description": "ChaaaargeUp Platform peut récupérer en temps réel les données de votre véhicule comme le niveau de votre batterie et utiliser cette information avec la charge intelligente pour optimiser vos sessions de recharges.",
       "setting_do_not_exist": "La configuration du connecteur n'existe pas",
       "setting_not_found": "La configuration du connecteur n'a pas été trouvée",
       "create_success": "La configuration du connecteur a été créée avec succès",
@@ -1910,7 +1910,7 @@
       "update_error": "Une erreur est survenue lors de la mise à jour de la configuration du connecteur, vérifiez les logs"
     },
     "information": "Information",
-    "activation_contact_msg": "Pour activer cette fonctionnalité, veuillez contacter votre administrateur E-Mobility.",
+    "activation_contact_msg": "Pour activer cette fonctionnalité, veuillez contacter votre administrateur ChaaaargeUp Platform.",
     "car": {
       "synchronize_car_catalogs": "Synchronisation des véhicules",
       "synchronize_car_catalogs_dialog_title": "Synchronisation des Véhicules",

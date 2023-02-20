@@ -613,7 +613,7 @@
     "verify_email_proceed_with_activation": "Ihr Account ist noch immer inaktiv! Wollen Sie das Versenden der Aktivierungs-Email wiederholen?",
     "verify_email_proceed_with_activation_button": "Weiter",
     "invalid_captcha_token": "Ungültiger Captcha Token",
-    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the e-Mobility Software."
+    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the ChaaaargeUp Platform Software."
   },
   "statistics": {
     "title": "Statistiken",
@@ -1592,9 +1592,9 @@
       "update_success": "OCPI-Einstellungen wurden erfolgreich aktualisiert",
       "update_error": "Beim Aktualisieren der OCPI-Einstellungen ist ein Fehler aufgetreten",
       "description": [
-        "E-Mobility stellt einen zertifizierten Service zur Verbindung zur externen E-Roaming Plattform zur Verfügung.",
+        "ChaaaargeUp Platform stellt einen zertifizierten Service zur Verbindung zur externen E-Roaming Plattform zur Verfügung.",
         "Dieses Feature legt in Echtzeit die Lade-Infrastruktur und -Verfügbarkeit via OCPI-Standard-Protokoll (Open Charge Point Interface) offen.",
-        "E-Mobility nutzt momentan die Gireve Inter-Operability Platform (IOP)."
+        "ChaaaargeUp Platform nutzt momentan die Gireve Inter-Operability Platform (IOP)."
       ]
     },
     "oicp": {
@@ -1608,16 +1608,16 @@
       "update_success": "OICP-Einstellungen wurden erfolgreich aktualisiert",
       "update_error": "Beim Aktualisieren der OICP-Einstellungen ist ein Fehler aufgetreten",
       "description": [
-        "E-Mobility stellt einen zertifizierten Service zur Verbindung zur externen E-Roaming Plattform zur Verfügung.",
+        "ChaaaargeUp Platform stellt einen zertifizierten Service zur Verbindung zur externen E-Roaming Plattform zur Verfügung.",
         "Dieses Feature legt in Echtzeit die Lade-Infrastruktur und -Verfügbarkeit via OICP-Protokoll (Open InterCharge Protocol) offen.",
-        "E-Mobility nutzt momentan die Hubject B2B Service Plattform (HBS)."
+        "ChaaaargeUp Platform nutzt momentan die Hubject B2B Service Plattform (HBS)."
       ]
     },
     "refund": {
       "description": [
-        "E-Mobility bietet einen Rückerstattungsservice für ein externes Kostensystem.",
+        "ChaaaargeUp Platform bietet einen Rückerstattungsservice für ein externes Kostensystem.",
         "Dieses Feature ermöglicht es die Ladevorgänge in ein externes Kostensystem zu übertragen und die verbrauchte Energie zurückerstattet zu bekommen.",
-        "E-Mobility benutzt zur Zeit SAP Concur. Weitere technische Informationen finden Sie auf "
+        "ChaaaargeUp Platform benutzt zur Zeit SAP Concur. Weitere technische Informationen finden Sie auf "
       ],
       "not_found": "Rückerstattungseinstellungen nicht gefunden",
       "create_success": "Rückerstattungseinstellungen erfolgreich erstellt",
@@ -1786,7 +1786,7 @@
         "force_synchronize_user_failure": "Fehler beim Synchronisieren des Nutzers, überprüfen Sie die Logs."
       },
       "stripe": {
-        "description": "E-Mobility ermöglicht das Senden von Rechnungen an Ladestationnutzer mit Stripe ...",
+        "description": "ChaaaargeUp Platform ermöglicht das Senden von Rechnungen an Ladestationnutzer mit Stripe ...",
         "title": "Stripe",
         "url": "URL vom Stripe Dashboard",
         "public_key": "Teilbarer API Key",
@@ -1807,9 +1807,9 @@
         "settings": "Einstellungen"
       },
       "description": [
-        "E-Mobility stellt Daten an externe Analyseservices zur Verfügung.",
+        "ChaaaargeUp Platform stellt Daten an externe Analyseservices zur Verfügung.",
         "Dieses Feature stellt alle Ladevorgangsdaten in Echtzeit einem externen Analyse Tool zur Verfügung.",
-        "E-Mobility benutzt derzeit SAP Analytics Cloud mit einem OData connector.",
+        "ChaaaargeUp Platform benutzt derzeit SAP Analytics Cloud mit einem OData connector.",
         "SAP Analytics Cloud unterstützt die intelligente Nutzung von Ladevorgangsdaten um Entscheidungen zu vereinfachen.",
         "Weitere technische Informationen auf "
       ],
@@ -1831,7 +1831,7 @@
         "limit_buffer_dc": "Puffer für Limit DC (%)",
         "limit_buffer_ac": "Puffer für Limit AC (%)"
       },
-      "description": "E-Mobility kann Smart-Charging Algorithmen nutzen um die Leistungsbereitstellung und den Ladezeitplan auf Basis komplexer Abhängigkeiten zu optimieren",
+      "description": "ChaaaargeUp Platform kann Smart-Charging Algorithmen nutzen um die Leistungsbereitstellung und den Ladezeitplan auf Basis komplexer Abhängigkeiten zu optimieren",
       "setting_do_not_exist": "Konfiguration nicht gefunden",
       "setting_not_found": "SAP Smart Charging-Einstellungen nicht gefunden",
       "create_success": "SAP Smart Charging-Einstellungen erfolgreich erstellt",
@@ -1869,7 +1869,7 @@
       "unknown_connection_error": "Unbekannter Verbindungsfehler",
       "invalid_grant": "Nutzer oder Passwort sind nicht korrekt",
       "connection_failed": "Verbindung fehlgeschlagen",
-      "description": "E-Mobility kann die Verbräuche Ihrer Assets verwalten und diese Informationen mit dem Smart-Charging-Algorithmus nutzen, um den Bedarf der Ladestationen für einen Standortbereich anzugleichen",
+      "description": "ChaaaargeUp Platform kann die Verbräuche Ihrer Assets verwalten und diese Informationen mit dem Smart-Charging-Algorithmus nutzen, um den Bedarf der Ladestationen für einen Standortbereich anzugleichen",
       "setting_do_not_exist": "Die Konfiguration wurde nicht gefunden",
       "setting_not_found": "Die Asset-Einstellungen konnten nicht gefunden werden.",
       "create_success": "Die Asset-Einstellungen wurden erfolgreich erstellt.",
@@ -1901,7 +1901,7 @@
         "revoke_success": "Ihre Verbindung mit Mercedes wurde erfolgreich widerrufen",
         "revoke_error": "Beim Widerrufen Ihrer Verbindung zu Mercedes ist ein Fehler aufgetreten"
       },
-      "description": "E-Mobility ist in der Lage Fahrzeugdaten wie z.B. Batteriestand zu empfangen und diese Informationen für Smart Charging und die Optimierung von Ladevorgängen nutzen",
+      "description": "ChaaaargeUp Platform ist in der Lage Fahrzeugdaten wie z.B. Batteriestand zu empfangen und diese Informationen für Smart Charging und die Optimierung von Ladevorgängen nutzen",
       "setting_do_not_exist": "Die Konfiguration wurde nicht gefunden",
       "setting_not_found": "Die Schnittstellen-Einstellungen konnten nicht gefunden werden.",
       "create_success": "Die Schnittstellen-Einstellungen wurden erfolgreich erstellt.",
@@ -1910,7 +1910,7 @@
       "update_error": "Während der Aktualisierung der Schnittstellen-Einstellungen ist ein Fehler aufgetreten"
     },
     "information": "Informationen",
-    "activation_contact_msg": "Um dieses Feature zu aktivieren, kontaktieren Sie bitte Ihren E-Mobility Verantwortlichen.",
+    "activation_contact_msg": "Um dieses Feature zu aktivieren, kontaktieren Sie bitte Ihren ChaaaargeUp Platform Verantwortlichen.",
     "car": {
       "synchronize_car_catalogs": "Fahrzeuge Synchronisieren",
       "synchronize_car_catalogs_dialog_title": "Fahrzeuge Synchronisieren",
@@ -2060,8 +2060,8 @@
     "roaming_platforms": "Interoperabilitäts-Plattform",
     "cpo": "Charging Point Operator",
     "enable_cpo": "Charging Point Operator aktivieren",
-    "emsp": "e-Mobility Service Provider",
-    "enable_emsp": "e-Mobility Service Provider aktivieren",
+    "emsp": "ChaaaargeUp Platform Service Provider",
+    "enable_emsp": "ChaaaargeUp Platform Service Provider aktivieren",
     "tariff_id": "Tarif-ID",
     "owner_name": "Owner Name",
     "description": "Open Charge Point Interface",
@@ -2165,7 +2165,7 @@
     "type_placeholder": "Typ",
     "roaming_platforms": "Roaming Plattformen",
     "cpo": "Ladepunkt Operator ID",
-    "emsp": "E-Mobility Service Provider ID",
+    "emsp": "ChaaaargeUp Platform Service Provider ID",
     "description": "Open InterCharge Protocol",
     "details": "Identifikation",
     "country_code": "Ländercode",
@@ -2612,7 +2612,7 @@
         "partial": "{{inSuccess}} Ladevorgänge wurde erfolgreich übermittelt und {{inError}} Ladevorgänge haben einen Fehler ausgelöst",
         "forbidden_refund_another_user": "Sie können keinen Ladevorgang eines anderen Nutzers übermitteln",
         "not_authorized": "Sie sind nicht berechtigt diese Anfrage auszuführen",
-        "error": "Die E-Mobility Anwendung konnte nicht mit dem Rückerstattungssystem verbunden werden. Kontaktieren Sie einen Administrator.",
+        "error": "Die ChaaaargeUp Platform Anwendung konnte nicht mit dem Rückerstattungssystem verbunden werden. Kontaktieren Sie einen Administrator.",
         "concur_connection_invalid": "Ihre Verbindung zum Rückerstattungssystem ist nicht korrekt konfiguriert. Kontaktieren Sie einen Administrator.",
         "tenant_concur_connection_invalid": "Die Organisation Ihrer Rückerstattungssystemkonfiguration ist unvollständig. Kontaktieren Sie einen Administrator"
       }

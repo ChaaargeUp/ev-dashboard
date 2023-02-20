@@ -28,7 +28,7 @@
     "connectors": "Spojení",
     "notifications": "Upozornění",
     "general": "Main",
-    "app_name": "E-mobility",
+    "app_name": "ChaaaargeUp Platform",
     "version": "Verze",
     "about_us": "O nás",
     "unexpected_error_backend": "Došlo k neočekávané chybě, zkontrolujte protokoly ",
@@ -613,7 +613,7 @@
     "verify_email_proceed_with_activation": "Váš účet stále není neaktivní! Chcete znovu poslat aktivační e-mail?",
     "verify_email_proceed_with_activation_button": "Pokračovat",
     "invalid_captcha_token": "Neplatný token captcha ",
-    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the e-Mobility Software."
+    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the ChaaaargeUp Platform Software."
   },
   "statistics": {
     "title": "Statistika",
@@ -1592,9 +1592,9 @@
       "update_success": "Nastavení protokolu OCPI bylo úspěšně aktualizováno",
       "update_error": "Došlo k chybě při aktualizaci nastavení protokolu OCPI, zkontrolujte protokoly",
       "description": [
-        "E-mobility poskytuje certifikovanou službu připojení k externím e-roamingovým platformám.",
+        "ChaaaargeUp Platform poskytuje certifikovanou službu připojení k externím e-roamingovým platformám.",
         "Tato funkce ukazuje infrastrukturu a dostupnost nabíjecích stanic v reálném čase pomocí standardního protokolu OCPI (Open Charge Point Interface).",
-        "E-mobility v současnosti používá platformu interoperability (IOP) Gireve."
+        "ChaaaargeUp Platform v současnosti používá platformu interoperability (IOP) Gireve."
       ]
     },
     "oicp": {
@@ -1608,16 +1608,16 @@
       "update_success": "Nastavení protokolu OICP bylo úspěšně aktualizováno",
       "update_error": "Došlo k chybě při aktualizaci nastavení protokolu OICP, zkontrolujte protokoly",
       "description": [
-        "E-mobility poskytuje certifikovanou službu připojení k externím e-roamingovým platformám.",
+        "ChaaaargeUp Platform poskytuje certifikovanou službu připojení k externím e-roamingovým platformám.",
         "Tato funkce ukazuje infrastrukturu a dostupnost nabíjecích stanic v reálném čase pomocí protokolu OICP (Open InterCharge Protocol).",
-        "E-mobility v současnosti používá servisní platformu Hubject B2B (HBS)."
+        "ChaaaargeUp Platform v současnosti používá servisní platformu Hubject B2B (HBS)."
       ]
     },
     "refund": {
       "description": [
-        "E-mobility poskytuje refundační službu externím systémům správy výdajů.",
+        "ChaaaargeUp Platform poskytuje refundační službu externím systémům správy výdajů.",
         "Tato funkce umožňuje uživateli zadat své relace do systému správy výdajů a dostat proplacenou elektřinu, kterou spotřeboval.",
-        "E-mobility v současnosti používá software SAP Concur. Další technické informace naleznete na"
+        "ChaaaargeUp Platform v současnosti používá software SAP Concur. Další technické informace naleznete na"
       ],
       "not_found": "Nastavení  refundace nenalezeno",
       "create_success": "Nastavení  refundace bylo úspěšně vytvořeno",
@@ -1786,7 +1786,7 @@
         "force_synchronize_user_failure": "Synchronizace uživatele se nezdařila, zkontrolujte protokoly"
       },
       "stripe": {
-        "description": "E-mobility umožňuje odeslat faktury uživatelům nabíjecích stanic pomocí Stripe...",
+        "description": "ChaaaargeUp Platform umožňuje odeslat faktury uživatelům nabíjecích stanic pomocí Stripe...",
         "title": "Stripe",
         "url": "URL ovládacího panelu Stripe",
         "public_key": "Publikovatelný klíč API",
@@ -1807,9 +1807,9 @@
         "settings": "Nastavení"
       },
       "description": [
-        "E-mobility zpřístupňuje své údaje externím analytickým nástrojům.",
+        "ChaaaargeUp Platform zpřístupňuje své údaje externím analytickým nástrojům.",
         "Tato funkce zpřístupňuje všechny údaje o relacích v reálném čase prostřednictvím konektoru externím analytickým nástrojům.",
-        " E-mobility v současnosti používá SAP Analytics Cloud pomocí konektoru OData.",
+        " ChaaaargeUp Platform v současnosti používá SAP Analytics Cloud pomocí konektoru OData.",
         "SAP Analytics Cloud podporuje inteligentní používání údajů o nabíjení, aby se zjednodušilo operativní rozhodování.",
         "Další technické informace naleznete na "
       ],
@@ -1831,7 +1831,7 @@
         "limit_buffer_dc": "Vyrovnávací paměť pro limit stejnosměrného proudu (DC)(%)",
         "limit_buffer_ac": "Vyrovnávací paměť pro limit střídavého proudu (AC)(%)"
       },
-      "description": "E-mobility může využívat algoritmus Smart nabíjení při optimalizaci distribuce energie a rozpisů nabíjení založených na složitých omezeních",
+      "description": "ChaaaargeUp Platform může využívat algoritmus Smart nabíjení při optimalizaci distribuce energie a rozpisů nabíjení založených na složitých omezeních",
       "setting_do_not_exist": "Konfigurace nebyla nalezena",
       "setting_not_found": "Nastavení SAP Smart Charging nebylo nenalezeno",
       "create_success": "Nastavení SAP Smart Charging bylo úspěšně vytvořeno",
@@ -1869,7 +1869,7 @@
       "unknown_connection_error": "Neznámá chyba připojení",
       "invalid_grant": "Nesprávný uživatel nebo heslo",
       "connection_failed": "Připojení se nezdařilo",
-      "description": "E-mobility může řídit spotřebu vašeho prostředku a použít tuto informaci k vyrovnání spotřeby nabíjecích stanic v dané sekci parkoviště pomocí algoritmu Smart nabíjení.",
+      "description": "ChaaaargeUp Platform může řídit spotřebu vašeho prostředku a použít tuto informaci k vyrovnání spotřeby nabíjecích stanic v dané sekci parkoviště pomocí algoritmu Smart nabíjení.",
       "setting_do_not_exist": "Konfigurace nebyla nalezena",
       "setting_not_found": "Nastavení prostředku nebylo nenalezeno",
       "create_success": "Nastavení prostředku bylo úspěšně vytvořeno",
@@ -1901,7 +1901,7 @@
         "revoke_success": "Your connection with Mercedes has been successfully revoked",
         "revoke_error": "Error occurred while revoking your connection with Mercedes, check the logs"
       },
-      "description": "E-mobility může získat údaje z vašich elektromobilů, např. aktuální stav nabíjení, v reálném čase  a použít tyto informace při optimalizaci nabíjecích relací pomocí algoritmu Smart nabíjení.",
+      "description": "ChaaaargeUp Platform může získat údaje z vašich elektromobilů, např. aktuální stav nabíjení, v reálném čase  a použít tyto informace při optimalizaci nabíjecích relací pomocí algoritmu Smart nabíjení.",
       "setting_do_not_exist": "Konfigurace nebyla nalezena",
       "setting_not_found": "Nastavení konektoru elektromobilu nebylo nenalezeno",
       "create_success": "Nastavení konektoru elektromobilu bylo úspěšně vytvořeno",
@@ -1910,7 +1910,7 @@
       "update_error": "Došlo k chybě při aktualizaci konektoru elektromobilu, zkontrolujte protokol"
     },
     "information": "Informace",
-    "activation_contact_msg": "Chcete-li aktivovat tuto funkci, kontaktujte svého zástupce e-mobility.",
+    "activation_contact_msg": "Chcete-li aktivovat tuto funkci, kontaktujte svého zástupce ChaaaargeUp Platform.",
     "car": {
       "synchronize_car_catalogs": "Synchronizovat elektromobily",
       "synchronize_car_catalogs_dialog_title": "Synchronizovat elektromobily",
@@ -2060,8 +2060,8 @@
     "roaming_platforms": "Platforma interoperability",
     "cpo": "Charging Point Operator",
     "enable_cpo": "Enable Charging Point Operator",
-    "emsp": "e-Mobility Service Provider",
-    "enable_emsp": "Enable e-Mobility Service Provider",
+    "emsp": "ChaaaargeUp Platform Service Provider",
+    "enable_emsp": "Enable ChaaaargeUp Platform Service Provider",
     "tariff_id": "Tariff ID",
     "owner_name": "Owner Name",
     "description": "Otevřít rozhraní nabíjecího místa",
@@ -2165,7 +2165,7 @@
     "type_placeholder": "Typ",
     "roaming_platforms": "Roamingové platformy",
     "cpo": "Identifikace provozovatele nabíjecího místa",
-    "emsp": "Identifikace poskytovatele služby e-mobility",
+    "emsp": "Identifikace poskytovatele služby ChaaaargeUp Platform",
     "description": "Protokol OICP (Open InterCharge Protocol)",
     "details": "Identifikace",
     "country_code": "Kód země",
@@ -2612,7 +2612,7 @@
         "partial": "{{inSuccess}} relace byly úspěšně převedeny a u {{inError}} relací došlo k chybě, zkontrolujte protokoly",
         "forbidden_refund_another_user": "Nelze převést relaci jiného uživatele",
         "not_authorized": "Nemáte oprávnění provést tento požadavek",
-        "error": "Aplikace e-mobility se nemohla připojit k refundačnímu systému. Kontaktujte správce.",
+        "error": "Aplikace ChaaaargeUp Platform se nemohla připojit k refundačnímu systému. Kontaktujte správce.",
         "concur_connection_invalid": "Vaše spojení s refundačním systémem není správně nakonfigurováno. Kontaktujte správce.",
         "tenant_concur_connection_invalid": "Organizace konfigurace vašeho refundačního systému není dokončena. Kontaktujte správce."
       }
