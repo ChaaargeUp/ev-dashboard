@@ -2,14 +2,14 @@
   <form class="form" [formGroup]="formGroup">
     <div class="row">
       <div class="col-md-6 form-group" *ngIf="chargingStation?.issuer">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" placeholder="{{'chargers.charger_url' | translate}}"
             [formControl]="chargingStationURL" required [readOnly]="readOnly" />
         </mat-form-field>
         <mat-error *ngIf="chargingStationURL?.invalid">{{'chargers.invalid_url' | translate}}</mat-error>
       </div>
       <div class="col-md-6 form-group" [class.component-invisible]="!isOrganizationComponentActive">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" readonly=true placeholder="{{'chargers.site_area' | translate}}"
             class="form-field-popup" (click)="assignSiteArea()" [formControl]="siteArea"
             required />
@@ -24,21 +24,21 @@
     </div>
     <div class="row">
       <div class="col-md-3 form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput placeholder="{{'chargers.maximum_energy' | translate}}" (input)="maximumPowerChanged()"
             [formControl]="maximumPower" required [readOnly]="readOnly" />
           <mat-error *ngIf="maximumPower?.invalid">{{'chargers.invalid_power' | translate}}</mat-error>
         </mat-form-field>
       </div>
       <div class="col-md-3 form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput placeholder="{{'chargers.maximum_energy_amps' | translate}}" [formControl]="maximumPowerAmps"
             [readOnly]="readOnly" />
           <mat-error *ngIf="maximumPowerAmps?.invalid">{{'chargers.invalid_amperage' | translate}}</mat-error>
         </mat-form-field>
       </div>
       <div class="col-md-3 form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput placeholder="{{'general.latitude' | translate}}" type="text" required [formControl]="latitude"
             [readOnly]="readOnly">
           <mat-error *ngIf="latitude?.errors?.pattern">{{"general.invalid_value" | translate}}</mat-error>
@@ -50,7 +50,7 @@
         </mat-form-field>
       </div>
       <div class="col-md-3 form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput placeholder="{{'general.longitude' | translate}}" type="text" required
             [formControl]="longitude" [readOnly]="readOnly">
           <mat-error *ngIf="longitude?.errors?.pattern">{{"general.invalid_value" | translate}}</mat-error>
@@ -64,7 +64,7 @@
     </div>
     <div class="row" *ngIf="ocpiActive && public.value && chargingStation?.issuer">
       <div class="col-md-3 text-left form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" placeholder="{{'ocpi.tariff_id' | translate}}" [formControl]="tariffID"
           (input)="emptyStringToNull(tariffID)" />
           <mat-error *ngIf="tariffID?.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>

@@ -2,7 +2,7 @@
   <!-- User -->
   <div class="col-md-6">
     <div class="form-group">
-      <mat-form-field>
+      <mat-form-field appearance="outline">
         <input appAutofocus matInput
           placeholder="{{'settings.asset.connection.client_id' | translate}}"
           type="text" [formControl]="clientId" required>
@@ -13,7 +13,7 @@
   <!-- Password -->
   <div class="col-md-6">
     <div class="form-group">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
         <input matInput
           placeholder="{{'settings.asset.connection.client_secret' | translate}}"
           type="password" [formControl]="clientSecret" required>

@@ -12,7 +12,7 @@
       <div class="card-body">
         <div class="d-flex flex-row text-left">
           <div class="col-md-3" *ngIf="currentType?.value === 'DC'">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput placeholder="{{'chargers.efficiency' | translate}}" [formControl]="efficiency"
                 [readOnly]="readOnly" />
               <mat-error *ngIf="efficiency?.invalid">{{'chargers.invalid_efficiency' | translate}}</mat-error>

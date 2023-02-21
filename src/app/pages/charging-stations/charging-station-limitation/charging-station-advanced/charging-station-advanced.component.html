@@ -18,7 +18,7 @@
         <div class="col-md-12 text-left">
           <div class="row">
             <div class="col-md-6">
-              <mat-form-field>
+              <mat-form-field appearance="outline">
                 <mat-select [formControl]="connectorControl" placeholder="{{'chargers.connector' | translate}}">
                   <mat-option *ngFor="let connectorId of connectorIds" [value]="connectorId">
                     {{'chargers.connector' | translate}} {{connectorId}}
@@ -27,7 +27,7 @@
               </mat-form-field>
             </div>
             <div class="col-md-6">
-              <mat-form-field>
+              <mat-form-field appearance="outline">
                 <input [formControl]="durationControl" matInput
                   placeholder="{{'chargers.smart_charging.duration' | translate}}" type="number">
               </mat-form-field>

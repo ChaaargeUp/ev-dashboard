@@ -8,7 +8,7 @@
   </div>
   <!-- Value -->
   <div class="col-md-2">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
       <input matInput type="text" placeholder="{{'flat_fee_unit' | appPricingDimensionsUnit}}" [formControl]="flatFee" required/>
       <mat-error *ngIf="flatFee?.errors?.required">{{'general.mandatory_field' | translate}}</mat-error>
       <mat-error *ngIf="flatFee?.errors?.pattern">{{'general.error_number_pattern' | translate}}</mat-error>
@@ -25,7 +25,7 @@
   </div>
   <!-- Value -->
   <div class="col-md-2">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
       <input matInput type="text" placeholder="{{'energy_unit' | appPricingDimensionsUnit}}" [formControl]="energy" required/>
       <mat-error *ngIf="energy?.errors?.required">{{'general.mandatory_field' | translate}}</mat-error>
       <mat-error *ngIf="energy?.errors?.pattern">{{'general.error_number_pattern' | translate}}</mat-error>
@@ -39,7 +39,7 @@
   </div>
   <!-- Value -->
   <div class="col-md-2">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
       <input matInput type="text" placeholder="{{'energy_step_unit' | appPricingDimensionsUnit}}" [formControl]="energyStep" required/>
       <mat-error *ngIf="energyStep?.errors?.required">{{'general.mandatory_field' | translate}}</mat-error>
       <mat-error *ngIf="energyStep?.errors?.pattern">{{'general.error_number_pattern' | translate}}</mat-error>
@@ -56,7 +56,7 @@
   </div>
   <!-- Value -->
   <div class="col-md-2">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
       <input matInput type="text" placeholder="{{'charging_time_unit' | appPricingDimensionsUnit}}" id="chargingTime" [formControl]="chargingTime" required/>
       <mat-error *ngIf="chargingTime?.errors?.required">{{'general.mandatory_field' | translate}}</mat-error>
       <mat-error *ngIf="chargingTime?.errors?.pattern">{{'general.error_number_pattern' | translate}}</mat-error>
@@ -70,7 +70,7 @@
   </div>
   <!-- Value -->
   <div class="col-md-2">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
       <input matInput type="text" placeholder="{{'settings.pricing.time_step_unit' | translate}}" [formControl]="chargingTimeStep" required/>
       <mat-error *ngIf="chargingTimeStep?.errors?.required">{{'general.mandatory_field' | translate}}</mat-error>
       <mat-error *ngIf="chargingTimeStep?.errors?.pattern">{{'general.error_number_pattern' | translate}}</mat-error>
@@ -87,7 +87,7 @@
   </div>
   <!-- Value -->
   <div class="col-md-2">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
       <input matInput type="text" placeholder="{{'parking_time_unit' | appPricingDimensionsUnit}}" id="parkingTime" [formControl]="parkingTime" required/>
       <mat-error *ngIf="parkingTime?.errors?.required">{{'general.mandatory_field' | translate}}</mat-error>
       <mat-error *ngIf="parkingTime?.errors?.pattern">{{'general.error_number_pattern' | translate}}</mat-error>
@@ -101,7 +101,7 @@
   </div>
   <!-- Value -->
   <div class="col-md-2">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
       <input matInput type="text" placeholder="{{'settings.pricing.time_step_unit' | translate}}" [formControl]="parkingTimeStep" required/>
       <mat-error *ngIf="parkingTimeStep?.errors?.required">{{'general.mandatory_field' | translate}}</mat-error>
       <mat-error *ngIf="parkingTimeStep?.errors?.pattern">{{'general.error_number_pattern' | translate}}</mat-error>

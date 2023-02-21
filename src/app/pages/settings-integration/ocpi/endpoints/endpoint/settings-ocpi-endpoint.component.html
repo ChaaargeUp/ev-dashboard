@@ -13,7 +13,7 @@
                 <!-- OCPI Endpoint - Name -->
                 <div class="col-md-6">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput appAutofocus placeholder="{{'ocpiendpoints.name' | translate}}" type="text"
                         [formControl]="name" required>
                       <mat-error *ngIf="name.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <mat-select [formControl]="role" placeholder="{{'ocpiendpoints.role' | translate}}" required>
                         <mat-option value="CPO">CPO</mat-option>
                         <mat-option value="EMSP">eMSP</mat-option>
@@ -39,7 +39,7 @@
                 <!-- OCPI Endpoint - URL -->
                 <div class="col-md-12">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'ocpiendpoints.base_url' | translate}}" type="text"
                         [formControl]="baseUrl" required>
                       <mat-error *ngIf="baseUrl.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -54,7 +54,7 @@
                 <!-- OCPI Endpoint - Country Code / Party id-->
                 <div class="col-md-6">
                   <div class="form-group" *ngIf="!currentEndpoint?.id">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'ocpiendpoints.country_code' | translate}}" type="text"
                         [formControl]="countryCode">
                       <mat-error *ngIf="countryCode.errors?.required">{{"general.mandatory_field" | translate}}
@@ -70,7 +70,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group" *ngIf="!currentEndpoint?.id">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'ocpiendpoints.party_id' | translate}}" type="text"
                         [formControl]="partyId">
                       <mat-error *ngIf="partyId.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -88,7 +88,7 @@
                 <!-- OCPI Endpoint - Token -->
                 <div class="col">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'ocpiendpoints.local_token' | translate}}" type="text"
                         [formControl]="localToken">
                       <mat-error *ngIf="localToken.errors?.maxlength">
@@ -107,7 +107,7 @@
               <div class="row">
                 <div class="col">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'ocpiendpoints.token' | translate}}" type="text"
                         [formControl]="token">
                       <mat-error *ngIf="token.errors?.maxlength">

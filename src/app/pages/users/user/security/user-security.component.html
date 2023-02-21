@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [formControl]="password" [type]="hidePassword ? 'password' : 'text'"
             matInput placeholder="{{'authentication.password' | translate}}" type="password">
           <mat-icon (click)="hidePassword = !hidePassword" class="icon-clickable"
@@ -19,7 +19,7 @@
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [errorStateMatcher]="parentErrorStateMatcher"
             [formControl]="repeatPassword" [type]="hideRepeatPassword ? 'password' : 'text'" matInput
             placeholder="{{'authentication.repeat_password' | translate}}"

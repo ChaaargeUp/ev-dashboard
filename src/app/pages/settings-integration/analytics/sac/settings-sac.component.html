@@ -8,7 +8,7 @@
   <div class="card-body">
     <div class="row">
       <div class="col-md-6">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input appAutofocus matInput type="text" [formControl]="mainUrl"
             placeholder="{{'analytics.mainurl' | translate}}">
           <mat-error *ngIf="mainUrl.errors?.pattern">
@@ -23,7 +23,7 @@
     </div>
     <div class="row">
       <div class="col-md-3">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <mat-select [formControl]="timezone" placeholder="{{'analytics.timezone' | translate}}">
             <mat-option *ngFor="let timezoneId of timezoneList" value="{{timezoneId}}">{{timezoneId}}</mat-option>
           </mat-select>

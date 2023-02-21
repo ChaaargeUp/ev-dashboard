@@ -2,7 +2,7 @@
   <!-- API URL -->
   <div class="col-md-12">
     <div class="form-group">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
         <input matInput
           placeholder="{{'settings.car_connector.connection.api_url' | translate}}"
           type="url" [formControl]="apiUrl" required>
@@ -16,7 +16,7 @@
   <!-- Client ID -->
   <div class="col-md-6">
     <div class="form-group">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
         <input matInput
           placeholder="{{'settings.car_connector.connection.client_id' | translate}}"
           type="text" [formControl]="clientId" required>
@@ -27,7 +27,7 @@
   <!-- Client Secret -->
   <div class="col-md-6">
     <div class="form-group">
-    <mat-form-field>
+    <mat-form-field appearance="outline">
         <input matInput
           placeholder="{{'settings.car_connector.connection.client_secret' | translate}}"
           type="password" [formControl]="clientSecret" required>

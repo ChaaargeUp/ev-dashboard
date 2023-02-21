@@ -31,7 +31,7 @@
     </div>
     <div class="col-md-9">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [formControl]="name" appAutofocus matInput
             placeholder="{{'users.name' | translate}}" required type="text">
           <mat-error *ngIf="name.errors?.required">
@@ -43,7 +43,7 @@
         </mat-form-field>
       </div>
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [formControl]="firstName" matInput
             placeholder="{{'users.first_name' | translate}}" required type="text">
           <mat-error *ngIf="firstName.errors?.required">
@@ -57,7 +57,7 @@
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [formControl]="email" matInput
             placeholder="{{'users.email' | translate}}" required
             type="text">
@@ -72,7 +72,7 @@
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <mat-select [formControl]="locale" placeholder="{{'users.locale' | translate}}">
             <mat-option *ngFor="let userLocale of userLocales" [value]="userLocale.key">
               {{userLocale.value | translate}}
@@ -83,7 +83,7 @@
     </div>
     <div *ngIf="this.metadata?.status?.visible" class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <mat-select [formControl]="status" placeholder="{{'users.status' | translate}}" [required]="metadata?.status?.mandatory">
             <mat-option *ngFor="let userStatus of userStatuses" [value]="userStatus.key">
               {{userStatus.value | translate}}
@@ -94,7 +94,7 @@
     </div>
     <div *ngIf="isAdmin || isSuperAdmin" class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <mat-select [formControl]="role" (ngModelChange)="onRoleChanged($event)" placeholder="{{'users.role' | translate}}">
             <mat-option *ngFor="let userRole of userRoles" [value]="userRole.key">
               {{userRole.value | translate}}
@@ -105,7 +105,7 @@
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [formControl]="phone" matInput
             placeholder="{{'users.phone' | translate}}" type="text">
           <mat-error *ngIf="phone.errors?.invalidPhone">
@@ -117,7 +117,7 @@
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [formControl]="mobile" matInput
             placeholder="{{'users.mobile' | translate}}" type="text">
           <mat-error *ngIf="mobile.errors?.invalidPhone">
@@ -128,7 +128,7 @@
     </div>
     <div *ngIf="isAdmin" class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input [formControl]="plateID" matInput
             placeholder="{{'users.plate_id' | translate}}" type="text">
           <mat-error *ngIf="plateID.errors?.pattern">

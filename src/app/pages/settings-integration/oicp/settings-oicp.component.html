@@ -31,7 +31,7 @@
         <p class="font-weight-bold">{{'oicp.business_details' | translate}}</p>
         <div class="row">
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input appAutofocus matInput type="text" [formControl]="name"
                 placeholder="{{'oicp.businessdetails.name' | translate}}" required>
               <mat-error *ngIf="name.errors?.required">{{"general.mandatory_field"
@@ -45,7 +45,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="website"
                 placeholder="{{'oicp.businessdetails.website' | translate}}">
               <mat-error *ngIf="website.errors?.pattern">
@@ -58,7 +58,7 @@
         <p class="font-weight-bold">{{'oicp.logo' | translate}}</p>
         <div class="row">
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="logoURL"
                 placeholder="{{'oicp.businessdetails.logo.url' | translate}}">
               <mat-error *ngIf="logoURL.errors?.pattern">
@@ -67,7 +67,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-2">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <mat-select [formControl]="logoType" placeholder="{{'oicp.businessdetails.logo.type' | translate}}">
                 <mat-option *ngFor="let logoType of logoTypes" value="{{logoType.key}}">{{logoType.description}}
                 </mat-option>
@@ -75,7 +75,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-2">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="logoWidth"
                 placeholder="{{'oicp.businessdetails.logo.width' | translate}}">
               <mat-error *ngIf="logoWidth.errors?.pattern">
@@ -84,7 +84,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-2">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="logoHeight"
                 placeholder="{{'oicp.businessdetails.logo.height' | translate}}">
               <mat-error *ngIf="logoHeight.errors?.pattern">
@@ -95,7 +95,7 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="logoThumbnail"
                 placeholder="{{'oicp.businessdetails.logo.thumbnail' | translate}}">
               <mat-error *ngIf="logoThumbnail.errors?.pattern">
@@ -104,7 +104,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <mat-select placeholder="{{'oicp.businessdetails.logo.category' | translate}}"
                 [formControl]="logoCategory">
                 <mat-option *ngFor="let logoCategory of logoCategories" value="{{logoCategory.key}}">
@@ -120,7 +120,7 @@
         <p class="font-weight-bold">{{'oicp.cpo' | translate}}</p>
         <div class="row">
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="cpoCountryCode"
                 placeholder="{{'oicp.country_code' | translate}}" (input)="toUpperCase(cpoCountryCode)" required>
               <mat-error *ngIf="cpoCountryCode.errors?.required">{{"general.mandatory_field"
@@ -134,7 +134,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="cpoPartyID"
                 placeholder="{{'oicp.party_id' | translate}}" (input)="toUpperCase(cpoPartyID)" required>
               <mat-error *ngIf="cpoPartyID.errors?.required">{{"general.mandatory_field"
@@ -150,7 +150,7 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <textarea rows="1" matInput style="-webkit-text-security: circle" [formControl]="cpoKey" placeholder="{{'oicp.key' | translate}}" required></textarea>
               <mat-error *ngIf="cpoKey.errors?.required">{{"general.mandatory_field"| translate}}</mat-error>
               <mat-error *ngIf="cpoKey.errors?.minlength">
@@ -159,7 +159,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <textarea rows="1" matInput style="-webkit-text-security: circle" [formControl]="cpoCert" placeholder="{{'oicp.cert' | translate}}" required></textarea>
               <mat-error *ngIf="cpoCert.errors?.required">{{"general.mandatory_field"| translate}}</mat-error>
               <mat-error *ngIf="cpoCert.errors?.minlength">
@@ -174,7 +174,7 @@
         <p class="font-weight-bold">{{'oicp.emsp' | translate}}</p>
         <div class="row">
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="emspCountryCode"
                 placeholder="{{'oicp.country_code' | translate}}" (input)="toUpperCase(emspCountryCode)" required>
               <mat-error *ngIf="emspCountryCode.errors?.required">{{"general.mandatory_field"
@@ -188,7 +188,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" [formControl]="emspPartyID"
                 placeholder="{{'oicp.party_id' | translate}}" (input)="toUpperCase(emspPartyID)" required>
               <mat-error *ngIf="emspPartyID.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -201,7 +201,7 @@
             </mat-form-field>
           </div>
           <div class="col-md-3">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <mat-label for="inputPriceUnit">{{'pricing.price_unit_label' | translate}} *</mat-label>
               <mat-select id="inputPriceUnit" [formControl]="currency">
                 <mat-option value="AUD">Australian Dollar</mat-option>

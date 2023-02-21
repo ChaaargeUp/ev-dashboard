@@ -2,7 +2,7 @@
   <div class="row" *ngIf="idVisible">
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input appAutofocus matInput placeholder="{{'tags.id' | translate}}" type="text"
           [formControl]="id" (input)="toUpperCase(id)">
           <mat-error *ngIf="id.errors?.required">
@@ -30,7 +30,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="form-group" appTooltip title="{{'tags.visual_id_instruction' | translate}}">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input  matInput placeholder="{{'tags.visual_id' | translate}}"
           type="text" [formControl]="visualID">
           <mat-error *ngIf="id.errors?.required">
@@ -43,7 +43,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput placeholder="{{'general.description' | translate}}"
           type="text" [formControl]="description">
           <mat-error *ngIf="id.errors?.required">
@@ -56,7 +56,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" readonly=true placeholder="{{'users.title' | translate}}"
             class="form-field-popup" (click)="assignUser()" [formControl]="user" [required]="tagsAuthorizations?.metadata?.userID?.mandatory"/>
           <button *ngIf="user.enabled && user.value" mat-icon-button matSuffix (click)="resetUser()" aria-label="Clear">
@@ -72,7 +72,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <mat-select [formControl]="active" placeholder="{{'tags.status' | translate}}" required>
             <mat-option [value]="true">{{'tags.activated' | translate}}</mat-option>
             <mat-option [value]="false">{{'tags.deactivated' | translate}}</mat-option>

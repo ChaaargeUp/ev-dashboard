@@ -13,7 +13,7 @@
                 <!-- Name -->
                 <div class="col-md-12">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input appAutofocus matInput
                         placeholder="{{'settings.car_connector.connection.name' | translate}}" type="text"
                         [formControl]="name" required>
@@ -30,7 +30,7 @@
                 <!-- Description -->
                 <div class="col-md-12">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput
                         placeholder="{{'settings.car_connector.connection.description' | translate}}"
                         type="text" [formControl]="description" required>
@@ -43,7 +43,7 @@
                 <!-- Type -->
                 <div class="col-md-6">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <mat-select [formControl]="type" placeholder="{{'settings.car_connector.connection.type' | translate}}" (selectionChange)="typeChanged($event.value)" required>
                         <mat-option *ngFor="let carConnectorConnectionType of carConnectorConnectionTypes" value="{{carConnectorConnectionType.key}}">
                           {{ carConnectorConnectionType.value | translate }}

@@ -9,19 +9,19 @@
     <legend>{{'technical_settings.crypto.crypto_key.subtitle' | translate}}</legend>
     <div class="row">
       <div class="col-md-6">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" type="password" [formControl]="key"
               placeholder="{{'technical_settings.crypto.crypto_key.key' | translate}}" required>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" [formControl]="blockCypher"
               placeholder="{{'technical_settings.crypto.crypto_key.block_cypher' | translate}}" required>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" [formControl]="blockSize"
               placeholder="{{'technical_settings.crypto.crypto_key.block_size' | translate}}" required>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" [formControl]="operationMode"
               placeholder="{{'technical_settings.crypto.crypto_key.operation_mode' | translate}}" required>
         </mat-form-field>

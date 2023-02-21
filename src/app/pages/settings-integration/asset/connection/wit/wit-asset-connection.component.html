@@ -2,7 +2,7 @@
   <!-- Authentication Url -->
   <div class="col-md-6">
     <div class="form-group">
-      <mat-form-field>
+      <mat-form-field appearance="outline">
         <input matInput
           placeholder="{{'settings.asset.connection.authentication_url' | translate}}"
           type="url" [formControl]="authenticationUrl" required>
@@ -16,7 +16,7 @@
   <!-- ClientID -->
   <div class="col-md-6">
     <div class="form-group">
-      <mat-form-field>
+      <mat-form-field appearance="outline">
         <input matInput placeholder="{{'settings.asset.connection.client_id' | translate}}" type="text"
           [formControl]="clientId" required>
         <mat-error *ngIf="clientId.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -26,7 +26,7 @@
   <!-- Client Secret -->
   <div class="col-md-6">
     <div class="form-group">
-      <mat-form-field>
+      <mat-form-field appearance="outline">
         <input matInput placeholder="{{'settings.asset.connection.client_secret' | translate}}"
           type="password" [formControl]="clientSecret" required>
         <mat-error *ngIf="clientSecret.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -38,7 +38,7 @@
   <!-- User -->
   <div class="col-md-6">
     <div class="form-group">
-      <mat-form-field>
+      <mat-form-field appearance="outline">
         <input matInput placeholder="{{'settings.asset.connection.user' | translate}}" type="text" [formControl]="user"
           required>
         <mat-error *ngIf="user?.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -48,7 +48,7 @@
   <!-- Password -->
   <div class="col-md-6">
     <div class="form-group">
-      <mat-form-field>
+      <mat-form-field appearance="outline">
         <input matInput placeholder="{{'settings.asset.connection.password' | translate}}" type="password"
           [formControl]="password" required>
         <mat-error *ngIf="password?.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>

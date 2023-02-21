@@ -18,7 +18,7 @@
   <div class="row">
     <div class="col-md-12 col-xl-5">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <mat-select [formControl]="connectionID" placeholder="{{'chargers.connector' | translate}}" required>
             <mat-option *ngFor="let connection of assetConnections" value="{{connection.key}}">
               {{connection.value}}
@@ -34,7 +34,7 @@
   <div class="row">
     <div class="col-md-12 col-xl-5">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" placeholder="{{'assets.meter_id' | translate}}" [formControl]="meterID"
             required />
           <mat-error *ngIf="meterID.errors?.required">

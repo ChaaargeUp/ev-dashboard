@@ -10,7 +10,7 @@
   <div class="row" *ngIf="canListUsers">
     <div class="col-md-12">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" readonly=true placeholder="{{'users.title' | translate}}" class="form-field-popup"
             (click)="assignUser()" [formControl]="user" />
           <button mat-button matSuffix mat-icon-button aria-label="Add" (click)="assignUser()">
@@ -26,7 +26,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" readonly=true placeholder="{{'tags.title' | translate}}" class="form-field-popup"
             (click)="assignTag()" [formControl]="tag" />
           <button *ngIf="tag.enabled" mat-button matSuffix mat-icon-button aria-label="Add" (click)="assignTag()">
@@ -45,7 +45,7 @@
   <div *ngIf="isCarComponentActive" class="row">
     <div class="col-md-12">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" readonly=true placeholder="{{'car.title' | translate}}" class="form-field-popup"
             (click)="assignCar()" [formControl]="car" />
           <button *ngIf="car.enabled && car.value" mat-icon-button matSuffix (click)="resetCar()" aria-label="Add">

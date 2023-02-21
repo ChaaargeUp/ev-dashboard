@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" readonly=true placeholder="{{ (companyName.value ? 'accounts.list.company_name' : 'accounts.list.select_account') | translate}}"
                 class="form-field-popup" (click)="assignAccount()" [formControl]="companyName"/>
               <button *ngIf="companyName.enabled && companyName.value" mat-icon-button matSuffix (click)="resetAccount()" aria-label="Clear">
@@ -26,7 +26,7 @@
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput type="text" disabled
                 placeholder="{{'accounts.list.business_owner' | translate}}"
                 value="{{ businessOwnerName }}"/>
@@ -48,7 +48,7 @@
             <div class="card-body">
               <div class="row">
                 <div class="form-group">
-                  <mat-form-field>
+                  <mat-form-field appearance="outline">
                     <input matInput type="text"
                         placeholder="{{'accounts.platform_fee.platform_flat_fee' | translate}}" type="text" [formControl]="flatFee">
                     <mat-error
@@ -60,7 +60,7 @@
               </div>
               <div class="row">
                 <div class="form-group">
-                  <mat-form-field>
+                  <mat-form-field appearance="outline">
                     <input matInput
                         placeholder="{{'accounts.platform_fee.platform_fee_percentage' | translate}}" type="text" [formControl]="percentage">
                     <mat-error

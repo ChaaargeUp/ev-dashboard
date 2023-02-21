@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="form-group" appTooltip title="{{'tags.visual_id_instruction' | translate}}">
-                <mat-form-field>
+                <mat-form-field appearance="outline">
                   <input  matInput placeholder="{{'tags.visual_id' | translate}}"
                     type="text" [formControl]="visualID">
                   <mat-error *ngIf="visualID.errors?.required">
@@ -23,7 +23,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
-                <mat-form-field>
+                <mat-form-field appearance="outline">
                   <input matInput placeholder="{{'general.description' | translate}}"
                     type="text" [formControl]="description">
                   <mat-error *ngIf="description.errors?.required">

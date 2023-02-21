@@ -169,7 +169,7 @@
         </ng-template>
         <!-- Search -->
         <div *ngIf="dataSource.isSearchEnabled" class="col search-form">
-          <mat-form-field>
+          <mat-form-field appearance="outline">
             <input appAutofocus autocomplete="off" #searchInput [placeholder]="searchPlaceholder | translate" matInput>
             <button mat-icon-button matSuffix (click)="resetSearchFilter()" aria-label="Clear">
               <mat-icon>clear</mat-icon>

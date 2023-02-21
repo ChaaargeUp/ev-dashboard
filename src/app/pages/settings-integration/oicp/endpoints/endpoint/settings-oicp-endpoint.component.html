@@ -13,7 +13,7 @@
                 <!-- OICP Endpoint - Name -->
                 <div class="col-md-6">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput appAutofocus placeholder="{{'oicpendpoints.name' | translate}}" type="text"
                         [formControl]="name" required>
                       <mat-error *ngIf="name.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <mat-select [formControl]="role" placeholder="{{'oicpendpoints.role' | translate}}" required>
                         <mat-option value="CPO">CPO</mat-option>
                         <mat-option value="EMSP">eMSP</mat-option>
@@ -37,7 +37,7 @@
                 <!-- OICP Endpoint - URL -->
                 <div class="col-md-12">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <mat-select [formControl]="baseUrl" placeholder="{{'oicpendpoints.base_url' | translate}}" required>
                         <mat-option *ngFor="let oicpBaseurl of oicpBaseurls" [value]="oicpBaseurl.key">
                           {{oicpBaseurl.key}}
@@ -53,7 +53,7 @@
                 <!-- OICP Endpoint - Country Code / Party id-->
                 <div class="col-md-6">
                   <div class="form-group" *ngIf="!currentEndpoint?.id">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'oicpendpoints.country_code' | translate}}" type="text"
                         [formControl]="countryCode">
                       <mat-error *ngIf="countryCode.errors?.required">{{"general.mandatory_field" | translate}}
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group" *ngIf="!currentEndpoint?.id">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'oicpendpoints.party_id' | translate}}" type="text"
                         [formControl]="partyId">
                       <mat-error *ngIf="partyId.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>

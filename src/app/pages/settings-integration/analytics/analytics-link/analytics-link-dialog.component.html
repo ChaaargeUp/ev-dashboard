@@ -13,7 +13,7 @@
                 <!-- Link - Name -->
                 <div class="col-md-4">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input appAutofocus matInput placeholder="{{'analytics.link.name' | translate}}" type="text" [formControl]="name"
                         required>
                       <mat-error *ngIf="name.errors?.required">{{"general.mandatory_field" | translate}}
@@ -27,7 +27,7 @@
                 <!-- Link - Description -->
                 <div class="col-md-8">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'analytics.link.description' | translate}}"
                         type="text" [formControl]="description" required>
                       <mat-error *ngIf="description.errors?.required">{{"general.mandatory_field" | translate}}
@@ -38,7 +38,7 @@
                 <!-- Link - User role -->
                 <div class="col-md-4">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <mat-select [formControl]="role" placeholder="{{'analytics.link.role' | translate}}">
                         <mat-option *ngFor="let role of roleList" value="{{role.key}}">{{role.value}}</mat-option>
                       </mat-select>
@@ -48,7 +48,7 @@
                 <!-- Link - Url -->
                 <div class="col-md-12">
                   <div class="form-group">
-                    <mat-form-field>
+                    <mat-form-field appearance="outline">
                       <input matInput placeholder="{{'analytics.link.url' | translate}}" type="text"
                         [formControl]="url" required>
                       <mat-error *ngIf="url.errors?.required">{{"general.mandatory_field" | translate}}

@@ -30,7 +30,7 @@
     </div>
     <div class="col-md-12 col-xl-7">
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input appAutofocus matInput placeholder="{{'assets.name' | translate}}" type="text" [formControl]="name" required>
           <mat-error *ngIf="name.errors?.required">
             {{"general.mandatory_field" | translate}}
@@ -41,7 +41,7 @@
         </mat-form-field>
       </div>
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <input matInput type="text" readonly=true placeholder="{{'site_areas.titles' | translate}}"
             class="form-field-popup" (click)="assignSiteArea()" [formControl]="siteArea" required />
           <button mat-button matSuffix mat-icon-button aria-label="Add" (click)="assignSiteArea()" [hidden]="readOnly">
@@ -53,7 +53,7 @@
         </mat-form-field>
       </div>
       <div class="form-group">
-        <mat-form-field>
+        <mat-form-field appearance="outline">
           <mat-select [formControl]="assetType" placeholder="{{'assets.asset_type' | translate}}" required>
             <mat-option *ngFor="let assetType of assetTypes" value="{{assetType.key}}">
               {{assetType.value | translate}}
@@ -73,7 +73,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="form-group">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput [formControl]="staticValueWatt"
                 placeholder="{{'assets.static_value_watt' | translate}}" required type='number'>
               <mat-error *ngIf="assetType.errors?.required">{{"general.mandatory_field" | translate}}
@@ -83,7 +83,7 @@
         </div>
         <div class="col-md-4">
           <div class="form-group">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput [formControl]="fluctuationPercent"
                 placeholder="{{'assets.fluctuation_percent' | translate}}" type='number'>
               <mat-error *ngIf="fluctuationPercent.errors?.pattern || fluctuationPercent.errors?.max">
@@ -94,7 +94,7 @@
         </div>
         <div class="col-md-4">
           <div class="form-group">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput [formControl]="variationThresholdPercent"
                 placeholder="{{'assets.variation_percent' | translate}}" type='number'>
               <mat-error
@@ -108,7 +108,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput placeholder="{{'general.latitude' | translate}}" type="text"
                 [formControl]="latitude" [readOnly]="readOnly">
               <mat-error *ngIf="latitude.errors?.pattern">{{"general.invalid_value" | translate}}</mat-error>
@@ -121,7 +121,7 @@
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <mat-form-field>
+            <mat-form-field appearance="outline">
               <input matInput placeholder="{{'general.longitude' | translate}}" type="text"
                 [formControl]="longitude" [readOnly]="readOnly">
               <mat-error *ngIf="longitude.errors?.pattern">{{"general.invalid_value" | translate}}</mat-error>
