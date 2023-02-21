@@ -1822,7 +1822,7 @@
     },
     "smart_charging": {
       "sap_smart_charging": {
-        "title": "SAP Smart Charging",
+        "title": "ChaaargeUp Smart Charging",
         "settings": "Configuración",
         "user": "Usuario",
         "password": "Contraseña",
@@ -1834,10 +1834,10 @@
       "description": "ChaaaargeUp Platform puede utilizar un algoritmo de carga inteligente para optimizar la potencia distribuida en los cargadores en función de restricciones complejas.",
       "setting_do_not_exist": "La configuración no existe",
       "setting_not_found": "No se encontró la configuración",
-      "create_success": "La configuración de SAP Smart Charging se creó exitosamente",
-      "create_error": "Se produjo un error al crear la configuración de SAP Smart Charging",
-      "update_success": "La configuración de SAP Smart Charging se actualizó correctamente",
-      "update_error": "Se produjo un error durante la actualización de la configuración de SAP Smart Charging",
+      "create_success": "La configuración de ChaaargeUp Smart Charging se creó exitosamente",
+      "create_error": "Se produjo un error al crear la configuración de ChaaargeUp Smart Charging",
+      "update_success": "La configuración de ChaaargeUp Smart Charging se actualizó correctamente",
+      "update_error": "Se produjo un error durante la actualización de la configuración de ChaaargeUp Smart Charging",
       "connection_success": "La conexión al servicio de carga inteligente se verificó correctamente",
       "connection_error": "No se puede conectar al servicio de carga inteligente. Verifique su configuración",
       "check_connection": "Verificar conexión"

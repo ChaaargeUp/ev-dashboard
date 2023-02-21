@@ -1822,7 +1822,7 @@
     },
     "smart_charging": {
       "sap_smart_charging": {
-        "title": "SAP Smart Charging",
+        "title": "ChaaargeUp Smart Charging",
         "settings": "Nastavení",
         "user": "Uživatel",
         "password": "Heslo",
@@ -1833,11 +1833,11 @@
       },
       "description": "ChaaaargeUp Platform může využívat algoritmus Smart nabíjení při optimalizaci distribuce energie a rozpisů nabíjení založených na složitých omezeních",
       "setting_do_not_exist": "Konfigurace nebyla nalezena",
-      "setting_not_found": "Nastavení SAP Smart Charging nebylo nenalezeno",
-      "create_success": "Nastavení SAP Smart Charging bylo úspěšně vytvořeno",
-      "create_error": "Došlo k chybě při vytvoření nastavení SAP Smart Charging, zkontrolujte protokoly",
-      "update_success": "Nastavení SAP Smart Charging bylo úspěšně aktualizováno",
-      "update_error": "Došlo k chybě při aktualizaci nastavení SAP Smart Charging, zkontrolujte protokoly",
+      "setting_not_found": "Nastavení ChaaargeUp Smart Charging nebylo nenalezeno",
+      "create_success": "Nastavení ChaaargeUp Smart Charging bylo úspěšně vytvořeno",
+      "create_error": "Došlo k chybě při vytvoření nastavení ChaaargeUp Smart Charging, zkontrolujte protokoly",
+      "update_success": "Nastavení ChaaargeUp Smart Charging bylo úspěšně aktualizováno",
+      "update_error": "Došlo k chybě při aktualizaci nastavení ChaaargeUp Smart Charging, zkontrolujte protokoly",
       "connection_success": "Spojení se službou Smart nabíjení bylo úspěšně otestováno",
       "connection_error": "Nelze se připojit ke službě Smart nabíjení. Zkontrolujte svou konfiguraci.",
       "check_connection": "Zkontrolujte připojení"

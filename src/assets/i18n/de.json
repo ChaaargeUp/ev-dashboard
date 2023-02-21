@@ -1822,7 +1822,7 @@
     },
     "smart_charging": {
       "sap_smart_charging": {
-        "title": "SAP Smart Charging",
+        "title": "ChaaargeUp Smart Charging",
         "settings": "Einstellungen",
         "user": "Nutzer",
         "password": "Passwort",
@@ -1833,11 +1833,11 @@
       },
       "description": "ChaaaargeUp Platform kann Smart-Charging Algorithmen nutzen um die Leistungsbereitstellung und den Ladezeitplan auf Basis komplexer Abhängigkeiten zu optimieren",
       "setting_do_not_exist": "Konfiguration nicht gefunden",
-      "setting_not_found": "SAP Smart Charging-Einstellungen nicht gefunden",
-      "create_success": "SAP Smart Charging-Einstellungen erfolgreich erstellt",
-      "create_error": "Beim Erstellen der SAP Smart Charging-Einstellungen ist ein Fehler aufgetreten",
-      "update_success": "SAP Smart Charging-Einstellungen wurden erfolgreich aktualisiert",
-      "update_error": "Beim Aktualisieren der SAP Smart Charging-Einstellungen ist ein Fehler aufgetreten",
+      "setting_not_found": "ChaaargeUp Smart Charging-Einstellungen nicht gefunden",
+      "create_success": "ChaaargeUp Smart Charging-Einstellungen erfolgreich erstellt",
+      "create_error": "Beim Erstellen der ChaaargeUp Smart Charging-Einstellungen ist ein Fehler aufgetreten",
+      "update_success": "ChaaargeUp Smart Charging-Einstellungen wurden erfolgreich aktualisiert",
+      "update_error": "Beim Aktualisieren der ChaaargeUp Smart Charging-Einstellungen ist ein Fehler aufgetreten",
       "connection_success": "Verbindung zum Smart-Charging-Service wurde erfolgreich getestet",
       "connection_error": "Fehler beim Verbinden zum Smart-Charging-Service. Konfiguration überprüfen.",
       "check_connection": "Verbindung überprüfen"

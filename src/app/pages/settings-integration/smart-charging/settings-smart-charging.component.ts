@@ -72,7 +72,7 @@ export class SettingsSmartChargingComponent implements OnInit {
   }
 
   public save(content: SmartChargingSettings) {
-    // SAP Smart Charging
+    // ChaaargeUp Smart Charging
     if (content.sapSmartCharging) {
       this.smartChargingSettings.type = SmartChargingSettingsType.SAP_SMART_CHARGING;
       this.smartChargingSettings.sapSmartCharging = content.sapSmartCharging;

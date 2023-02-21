@@ -1835,9 +1835,9 @@
       "setting_do_not_exist": "A configuração não foi encontrada",
       "setting_not_found": "As configurações do SAP Carregamento Inteligente não foram encontradas",
       "create_success": "As configurações do SAP Carregamento Inteligente foram criadas com sucesso",
-      "create_error": "Ocorreu um erro ao criar as configurações do SAP Smart Charging",
+      "create_error": "Ocorreu um erro ao criar as configurações do ChaaargeUp Smart Charging",
       "update_success": "As configurações do SAP Carregamento Inteligente foram atualizadas com sucesso",
-      "update_error": "Ocorreu um erro ao atualizar as configurações do SAP Smart Charging",
+      "update_error": "Ocorreu um erro ao atualizar as configurações do ChaaargeUp Smart Charging",
       "connection_success": "A conexão com o serviço de carregamento inteligente foi testada com sucesso",
       "connection_error": "Impossível conectar ao serviço de carregamento inteligente. Verifique sua configuração.",
       "check_connection": "Verifique a conexão"

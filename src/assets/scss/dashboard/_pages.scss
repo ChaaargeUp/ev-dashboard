@@ -94,6 +94,7 @@
     @extend .animation-transition-general;
 
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
 
     &.card-hidden {
       opacity: 0;
@@ -102,6 +103,7 @@
 
     .card-header {
       margin-bottom: 20px;
+      margin-top: 20px;
     }
     .card-body {
       // padding: 0px 5% 0px 5%;

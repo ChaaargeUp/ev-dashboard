@@ -21,12 +21,8 @@
     position: relative;
     max-height: 90vh;
     & .mat-toolbar {
-      padding-left: 0px !important;
-      padding-right: 0px !important;
     }
     & > .mat-toolbar, .mat-toolbar-row {
-      padding-left: 0px !important;
-      padding-right: 0px !important;
       > button:first-child {
         margin-left: 0px;
       }

@@ -15,7 +15,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <mat-icon>email</mat-icon>
-                      <mat-form-field class="ms-2">
+                      <mat-form-field class="ms-2" appearance="outline">
                         <input appAutofocus id="email-field" matInput type="text" placeholder="{{'authentication.email' | translate}}"
                           autocomplete="username" [formControl]="email" required>
                         <mat-error *ngIf="email.errors?.email">{{"authentication.invalid_email" | translate}}</mat-error>
@@ -26,7 +26,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <mat-icon>lock_outline</mat-icon>
-                      <mat-form-field class="ms-2">
+                      <mat-form-field appearance="outline"class="ms-2">
                         <input id="password-field" matInput type="password"
                           placeholder="{{'authentication.password' | translate}}" autocomplete="current-password"
                           [type]="hidePassword ? 'password' : 'text'" [formControl]="password" required>

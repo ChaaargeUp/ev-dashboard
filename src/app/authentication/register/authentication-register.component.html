@@ -15,7 +15,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <mat-icon>account_circle</mat-icon>
-                      <mat-form-field class="ms-2">
+                      <mat-form-field appearance="outline"class="ms-2">
                         <input appAutofocus id="last-name-field" matInput type="text" placeholder="{{'users.name' | translate}}"
                           [formControl]="name" required (input)="toUpperCase(name)">
                         <mat-error *ngIf="name.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -23,7 +23,7 @@
                     </span>
                   </div>
                   <div class="input-group-prepend input-group-no-icon">
-                    <mat-form-field class="ms-2">
+                    <mat-form-field appearance="outline"class="ms-2">
                       <input id="first-name-field" matInput type="text" placeholder="{{'users.first_name' | translate}}"
                         [formControl]="firstName" (input)="firstLetterToUpperCase(firstName)" required>
                       <mat-error *ngIf="firstName.errors?.required">{{"general.mandatory_field" | translate}}
@@ -33,7 +33,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <mat-icon>email</mat-icon>
-                      <mat-form-field class="ms-2">
+                      <mat-form-field appearance="outline"class="ms-2">
                         <input id="email-field" matInput type="text" placeholder="{{'authentication.email' | translate}}"
                           [formControl]="email" autocomplete="username" required>
                         <mat-error *ngIf="email.errors?.email">{{"authentication.invalid_email" | translate}}</mat-error>
@@ -44,7 +44,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <mat-icon>smartphone</mat-icon>
-                      <mat-form-field class="ms-2">
+                      <mat-form-field appearance="outline"class="ms-2">
                         <input [formControl]="mobile" matInput placeholder="{{'users.mobile' | translate}}" type="text">
                         <mat-error *ngIf="mobile.errors?.invalidPhone">{{"users.invalid_phone_number" | translate}}</mat-error>
                         <mat-error *ngIf="mobile.errors?.required">{{"general.mandatory_field" | translate}}</mat-error>
@@ -54,7 +54,7 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <mat-icon>lock_outline</mat-icon>
-                      <mat-form-field class="ms-2">
+                      <mat-form-field appearance="outline"class="ms-2">
                         <input id="password-field" matInput type="password" autocomplete="new-password"
                           placeholder="{{'authentication.password' | translate}}"
                           [type]="hidePassword ? 'password' : 'text'" [formControl]="password" required>
@@ -69,7 +69,7 @@
                     </span>
                   </div>
                   <div class="input-group-prepend input-group-no-icon">
-                    <mat-form-field class="ms-2">
+                    <mat-form-field appearance="outline"class="ms-2">
                       <input id="password-repeat-field" matInput type="password" autocomplete="new-password"
                         placeholder="{{'authentication.repeat_password' | translate}}"
                         [type]="hideRepeatPassword ? 'password' : 'text'" [formControl]="repeatPassword"

@@ -29,7 +29,7 @@
               </mat-slide-toggle>
             </div>
             <div class="col-5">
-              <mat-form-field *ngIf="components['controls'].refund['controls'].active.value">
+              <mat-form-field appearance="outline"*ngIf="components['controls'].refund['controls'].active.value">
                 <mat-select [formControl]="components['controls'].refund['controls'].type"
                     [placeholder]="'refund.type_placeholder' | translate"
                     [required]="components['controls'].refund['controls'].active.value">
@@ -54,7 +54,7 @@
               </mat-slide-toggle>
             </div>
             <div class="col-5">
-              <mat-form-field *ngIf="components['controls'].pricing['controls'].active.value">
+              <mat-form-field appearance="outline"*ngIf="components['controls'].pricing['controls'].active.value">
                 <mat-select [formControl]="components['controls'].pricing['controls'].type"
                     [placeholder]="'pricing.type_placeholder' | translate"
                     [required]="components['controls'].pricing['controls'].active.value">
@@ -79,7 +79,7 @@
               </mat-slide-toggle>
             </div>
             <div class="col-5">
-              <mat-form-field *ngIf="components['controls'].billing['controls'].active.value">
+              <mat-form-field appearance="outline"*ngIf="components['controls'].billing['controls'].active.value">
                 <mat-select [formControl]="components['controls'].billing['controls'].type"
                     [placeholder]="'billing.type_placeholder' | translate"
                     [required]="components['controls'].billing['controls'].active.value">
@@ -152,7 +152,7 @@
               </mat-slide-toggle>
             </div>
             <div class="col-5">
-              <mat-form-field *ngIf="components['controls'].analytics['controls'].active.value">
+              <mat-form-field appearance="outline"*ngIf="components['controls'].analytics['controls'].active.value">
                 <mat-select [formControl]="components['controls'].analytics['controls'].type"
                     [placeholder]="'analytics.type_placeholder' | translate"
                     [required]="components['controls'].analytics['controls'].active.value">
@@ -177,7 +177,7 @@
               </mat-slide-toggle>
             </div>
             <div class="col-5">
-              <mat-form-field *ngIf="components['controls'].smartCharging['controls'].active.value">
+              <mat-form-field appearance="outline"*ngIf="components['controls'].smartCharging['controls'].active.value">
                 <mat-select [formControl]="components['controls'].smartCharging['controls'].type"
                     [placeholder]="'smart_charging.type_placeholder' | translate"
                     [required]="components['controls'].smartCharging['controls'].active.value">

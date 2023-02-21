@@ -102,7 +102,7 @@
           <div *ngIf="filterDef.visible !== false"
             [class]="(filterDef.class ? filterDef.class : '')">
             <!-- Dropdown Filter -->
-            <mat-form-field *ngIf="filterDef.type === FilterType.DROPDOWN && !filterDef.multiple">
+            <mat-form-field appearance="outline"*ngIf="filterDef.type === FilterType.DROPDOWN && !filterDef.multiple">
               <mat-select (selectionChange)="filterChanged(filterDef)" [(value)]="filterDef.currentValue"
                 [placeholder]="filterDef.name | translate">
                 <mat-option *ngFor="let item of filterDef.items" [value]="item.key">{{item.value | translate}}
@@ -110,7 +110,7 @@
               </mat-select>
             </mat-form-field>
             <!-- Dropdown Filter with multiple selections-->
-            <mat-form-field *ngIf="filterDef.type === FilterType.DROPDOWN && filterDef.multiple">
+            <mat-form-field appearance="outline"*ngIf="filterDef.type === FilterType.DROPDOWN && filterDef.multiple">
               <mat-select (selectionChange)="filterChanged(filterDef)" [(value)]="filterDef.currentValue"
                 [placeholder]="filterDef.name | translate" multiple disableRipple>
                 <mat-select-trigger>{{filterDef.label}}</mat-select-trigger>
@@ -118,7 +118,7 @@
               </mat-select>
             </mat-form-field>
             <!-- Dialog Table Filter -->
-            <mat-form-field *ngIf="filterDef.type === FilterType.DIALOG_TABLE && !filterDef.multiple">
+            <mat-form-field appearance="outline"*ngIf="filterDef.type === FilterType.DIALOG_TABLE && !filterDef.multiple">
               <input (click)="showDialogTableFilter(filterDef)" [placeholder]="filterDef.name | translate"
                 [value]="(filterDef.currentValue ? filterDef.currentValue[0].value : filterDef.defaultValue) | translate"
                 class="form-field-popup" matInput readonly=true type="text" />
@@ -127,7 +127,7 @@
               </button>
             </mat-form-field>
             <!-- Dialog Table Filter with multiple selections-->
-            <mat-form-field *ngIf="filterDef.type === FilterType.DIALOG_TABLE && filterDef.multiple">
+            <mat-form-field appearance="outline"*ngIf="filterDef.type === FilterType.DIALOG_TABLE && filterDef.multiple">
               <input (click)="showDialogTableFilter(filterDef)" [placeholder]="filterDef.name | translate"
                 [value]="filterDef.label" class="form-field-popup" matInput readonly=true type="text" />
               <button mat-icon-button matSuffix (click)="resetDialogTableFilter(filterDef)" aria-label="Clear">
@@ -135,7 +135,7 @@
               </button>
             </mat-form-field>
             <!-- Date Filter -->
-            <mat-form-field *ngIf="filterDef.type === FilterType.DATE">
+            <mat-form-field appearance="outline"*ngIf="filterDef.type === FilterType.DATE">
               <mat-datetimepicker #picker type="datetime" openOnFocus="false" mode="portrait" timeInterval="1">
               </mat-datetimepicker>
               <mat-datetimepicker-toggle [for]="picker" matSuffix></mat-datetimepicker-toggle>
@@ -144,7 +144,7 @@
                 [value]="filterDef.currentValue" autocomplete="false">
             </mat-form-field>
             <!-- Date Range Filter -->
-            <mat-form-field *ngIf="filterDef.type === FilterType.DATE_RANGE" #ngxDatePickerElement>
+            <mat-form-field appearance="outline"*ngIf="filterDef.type === FilterType.DATE_RANGE" #ngxDatePickerElement>
               <input matInput ngxDaterangepickerMd
                 [timePicker]="filterDef.dateRangeTableFilterDef.timePicker"
                 [timePickerSeconds]="filterDef.dateRangeTableFilterDef.timePickerSeconds"
@@ -162,7 +162,7 @@
               </mat-icon>
             </mat-form-field>
             <!-- All key filter -->
-            <mat-form-field *ngIf="filterDef.type === FilterType.ALL_KEY">
+            <mat-form-field appearance="outline"*ngIf="filterDef.type === FilterType.ALL_KEY">
               <input [placeholder]="filterDef.name | translate" matInput>
             </mat-form-field>
           </div>

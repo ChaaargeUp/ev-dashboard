@@ -40,7 +40,7 @@
               [translate]="'general.error_max_length'"></div>
           </mat-error>
         </mat-form-field>
-        <mat-form-field *ngIf="formGroup.enabled">
+        <mat-form-field appearance="outline"*ngIf="formGroup.enabled">
           <input matInput type="text" readonly=true placeholder="{{'sites.site' | translate}}"
             class="form-field-popup" (click)="assignSite()" [formControl]="site" required />
           <button mat-button matSuffix mat-icon-button aria-label="Add" (click)="assignSite()">
@@ -50,10 +50,10 @@
             {{"general.mandatory_field" | translate}}
           </mat-error>
         </mat-form-field>
-        <mat-form-field *ngIf="!formGroup.enabled">
+        <mat-form-field appearance="outline"*ngIf="!formGroup.enabled">
           <input matInput type="text" placeholder="{{'sites.site' | translate}}" [formControl]="site" />
         </mat-form-field>
-        <mat-form-field *ngIf="formGroup.enabled">
+        <mat-form-field appearance="outline"*ngIf="formGroup.enabled">
           <input matInput type="text" readonly=true placeholder="{{'site_areas.parent_site_area' | translate}}"
             class="form-field-popup" (click)="assignParentSiteArea()" [formControl]="parentSiteArea" />
           <button mat-button matSuffix mat-icon-button (click)="assignParentSiteArea()">
@@ -63,7 +63,7 @@
             <mat-icon>clear</mat-icon>
           </button>
         </mat-form-field>
-        <mat-form-field *ngIf="!formGroup.enabled">
+        <mat-form-field appearance="outline"*ngIf="!formGroup.enabled">
           <input matInput type="text" placeholder="{{'site_areas.parent_site_area' | translate}}" [formControl]="parentSiteArea" />
         </mat-form-field>
         <div *ngIf="issuer?.value" class="text-left mb-2">

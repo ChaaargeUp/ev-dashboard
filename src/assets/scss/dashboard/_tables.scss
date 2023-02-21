@@ -56,6 +56,9 @@ $outer-spinner: $brand-danger !default;
 }
 
 .table-list {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -103,6 +106,8 @@ tr.mat-header-row {
   }
   background: mat.get-color-from-palette($app-background, dialog);
   padding: 0 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 14%);
 }
 
 .mat-toolbar-row {

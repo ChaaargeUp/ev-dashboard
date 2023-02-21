@@ -90,7 +90,7 @@
     <ng-template ngFor let-filterDef [ngForOf]="tableFiltersDef">
       <div *ngIf="filterDef.visible !== false" [class]="(filterDef.class ? filterDef.class : '')">
         <!-- Dropdown Filter -->
-        <mat-form-field *ngIf="filterDef.type === 'dropdown' && !filterDef.multiple">
+        <mat-form-field appearance="outline"*ngIf="filterDef.type === 'dropdown' && !filterDef.multiple">
           <mat-select (selectionChange)="filterChanged(filterDef)" [(value)]="filterDef.currentValue"
             [placeholder]="filterDef.name | translate">
             <mat-option *ngFor="let item of filterDef.items" [value]="item.key">{{item.value | translate}}
@@ -98,7 +98,7 @@
           </mat-select>
         </mat-form-field>
         <!-- Dropdown Filter with multiple selections-->
-        <mat-form-field *ngIf="filterDef.type === 'dropdown' && filterDef.multiple">
+        <mat-form-field appearance="outline"*ngIf="filterDef.type === 'dropdown' && filterDef.multiple">
           <mat-select (selectionChange)="filterChanged(filterDef)" [(value)]="filterDef.currentValue"
             [placeholder]="filterDef.name | translate" multiple disableRipple>
             <mat-select-trigger>{{filterDef.label}}</mat-select-trigger>
@@ -106,7 +106,7 @@
           </mat-select>
         </mat-form-field>
         <!-- Dialog Table Filter -->
-        <mat-form-field *ngIf="filterDef.type === 'dialog-table' && !filterDef.multiple" [hidden]="tableColumnDef?.visible === false">
+        <mat-form-field appearance="outline"*ngIf="filterDef.type === 'dialog-table' && !filterDef.multiple" [hidden]="tableColumnDef?.visible === false">
           <input (click)="showDialogTableFilter(filterDef)" [placeholder]="filterDef.name | translate"
             [value]="(filterDef.currentValue ? filterDef.currentValue[0].value : filterDef.defaultValue) | translate"
             class="form-field-popup" matInput readonly=true type="text" />
@@ -115,7 +115,7 @@
           </button>
         </mat-form-field>
         <!-- Dialog Table Filter with multiple selections -->
-        <mat-form-field *ngIf="filterDef.type === 'dialog-table' && filterDef.multiple" [hidden]="tableColumnDef?.visible === false">
+        <mat-form-field appearance="outline"*ngIf="filterDef.type === 'dialog-table' && filterDef.multiple" [hidden]="tableColumnDef?.visible === false">
           <input (click)="showDialogTableFilter(filterDef)" [placeholder]="filterDef.name | translate"
             [value]="filterDef.label" class="form-field-popup" matInput readonly=true type="text" />
           <button mat-icon-button matSuffix (click)="resetDialogTableFilter(filterDef)" aria-label="Clear">
@@ -123,14 +123,14 @@
           </button>
         </mat-form-field>
         <!-- Date Filter -->
-        <mat-form-field *ngIf="filterDef.type === 'date'">
+        <mat-form-field appearance="outline"*ngIf="filterDef.type === 'date'">
           <mat-datetimepicker #picker type="datetime" openOnFocus="false" mode="portrait" timeInterval="1">
           </mat-datetimepicker>
           <mat-datetimepicker-toggle [for]="picker" matSuffix></mat-datetimepicker-toggle>
           <input matInput [placeholder]="filterDef.name | translate" (dateChange)="dateFilterChanged(filterDef, $event)"
             [matDatetimepicker]="picker" [value]="filterDef.currentValue" autocomplete="false">
         </mat-form-field>
-        <mat-form-field *ngIf="filterDef.type === 'date-range'">
+        <mat-form-field appearance="outline"*ngIf="filterDef.type === 'date-range'">
           <input matInput ngxDaterangepickerMd [timePicker]="filterDef.dateRangeTableFilterDef.timePicker"
             [timePickerSeconds]="filterDef.dateRangeTableFilterDef.timePickerSeconds"
             [timePicker24Hour]="filterDef.dateRangeTableFilterDef.timePicker24Hour" [(ngModel)]="filterDef.currentValue"
